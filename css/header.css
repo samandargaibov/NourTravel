@@ -1,0 +1,47 @@
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 22;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
+}
+header .header .logo {
+  width: 147px;
+  height: auto;
+  margin-top: 16px;
+}
+header .header .logo img {
+  width: 100%;
+  cursor: pointer;
+  display: block;
+}
+header .header .header-right {
+  display: flex;
+  flex-basis: auto;
+}
+header .header nav ul {
+  display: flex;
+  margin-bottom: 0 !important;
+}
+header .header nav ul li {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 17px;
+}
+header .header nav ul li a {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: "Nunito", sans-serif;
+  transition: 0.5s;
+  font-size: 17px;
+  padding: 24px 0 26px;
+  display: block;
+}
+header .header nav ul li a:hover {
+  color: #6168FF;
+}
+header .header .burger-menu {
+  display: none;
+  color: #6168FF;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */

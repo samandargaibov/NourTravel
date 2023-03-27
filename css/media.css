@@ -1,0 +1,90 @@
+@media (max-width: 576px) {
+  header .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav {
+    display: none;
+  }
+  header .burger-menu {
+    display: inline !important;
+    font-size: 24px;
+  }
+  header .logo {
+    margin-bottom: 15px;
+  }
+  #first .background .spin {
+    display: none !important;
+  }
+  #first .background .arrows i {
+    display: none !important;
+  }
+  #first .background-text h2 {
+    font-size: 40px !important;
+  }
+  #first .background-text h4 {
+    font-size: 20px !important;
+  }
+  #first .background-text a {
+    font-size: 11px !important;
+    padding: 11px 24px !important;
+  }
+  #second .gp {
+    gap: 10px !important;
+  }
+  #third .gp {
+    gap: 10px !important;
+  }
+  #third .third-header span {
+    font-size: 35px !important;
+  }
+  #third .third-arrows {
+    display: none;
+  }
+  #seventh .partners {
+    gap: 5px;
+  }
+  #seventh .gp {
+    gap: 15px !important;
+  }
+  #eighth .eighth-header span {
+    font-size: 35px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 1870px) {
+  #third .third-arrows {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 999px) {
+  #seventh .gp {
+    gap: 15px !important;
+  }
+  #third .gp {
+    gap: 15px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 872px) {
+  header .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav {
+    display: none;
+  }
+  header .burger-menu {
+    display: inline !important;
+    font-size: 25px;
+  }
+  header .logo {
+    margin-bottom: 16px;
+  }
+  #first .background .spin {
+    display: none !important;
+  }
+  #first .arrows {
+    display: none !important;
+  }
+}/*# sourceMappingURL=media.css.map */

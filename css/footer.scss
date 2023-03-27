@@ -1,0 +1,101 @@
+footer{
+    padding: 250px 0 40px;
+    background-color: #00102A;
+    color: #fff;
+    clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
+    .footer-top{
+        margin-bottom: 30px;
+        border-bottom: 1px solid rgb(247, 243, 243 , 0.3);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+        .footer-contact{
+            img{
+                max-width: 100%;
+                display: block;
+                margin-bottom: 25px;
+            }
+            .contact-info{
+                p{
+                    margin-bottom: 15px;
+                    i{
+                        margin-right: 20px;
+                        float: left;
+                    }
+                    span{
+                        display: block;
+                        overflow: hidden;
+                    }
+                }
+            }
+            h3{
+                position: relative;
+                margin-bottom: 26px;
+                color: #fff;
+                font-size: 17px;
+            }
+            a{
+                display: block;
+                color: #fff;
+                margin-bottom: 5px;
+                transition: .4s;
+
+                &:hover{
+                    color: #6168FF;
+                }
+            }
+            .form-control{
+                height: 45px;
+                line-height: 45px;
+                margin-bottom: 8px;
+            }
+            .btn-contact-bg{
+                background-color: #6168FF;
+                border: 2px solid #6168FF;
+                color: #fff;
+                font-size: 13px;
+                padding: 12px 30px;
+                text-transform: uppercase;
+                transition: all 0.3s ease 0s;
+                font-weight: 700;
+                border-radius: 4px;
+                display: inline-block;     
+                
+                &:hover{
+                    background-color: #fff;
+                    color: #333;
+                    border-color: #fff;
+                }
+            }
+        }
+    }
+    .footer-bottom{
+        .copyright_text{
+            margin-bottom: 20px;
+            a{
+                color: #fff;
+                transition: .5s;
+                &:hover{
+                    color: #6168FF;
+                }
+            }
+        }
+        ul{
+                li{
+                    display: inline-block;
+                    margin: 0 7px;
+                    i{
+                        color: #6168FF;
+                        font-size: 19px;
+                        cursor: pointer;
+                        transition: .5s;
+
+                        &:hover{
+                            color: #fff;
+                        }
+                    }
+                }
+            
+        }
+    }
+}
